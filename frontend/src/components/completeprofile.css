@@ -1,0 +1,77 @@
+.box{
+    /* float: right; */
+    margin-right: 200px;
+    margin-top: 60px;
+    height: 400px;
+    width: 400px;
+    background-color:rgb(227, 251, 218);
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 70px 2px 10px 2px;
+    
+  }
+  .box input{
+   padding: 3px 10px 3px 30px;
+   height: 50px;
+   width: 70%;
+   border-radius: 10px;
+   background-color: rgb(254, 216, 216);
+   border: 1px solid black;
+  }
+  .profilecomp{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .box button{
+   
+    width: 200px;
+    height: 50px;
+    color: rgb(75, 74, 74);
+    border: 1px solid black;
+    margin: auto;
+    background-color: orange;
+    border-radius: 10px;
+   font-size: x-large;
+    margin: 0px 20px 0px 20px;
+    
+  }
+  button:hover{
+    background-color: #116114;
+    color: white;
+  }
+  .box h2{
+    color: rgb(7, 7, 7);
+    margin-bottom: 40px;
+    font-size: xx-large;
+  }
+  .record{
+    height: auto;
+    width: 500px;
+    margin-right: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  .record h2{
+    margin-left: 30px;
+  }
+  .recordCard{
+    margin: 20px;
+    
+  }
+  .recordCard img{
+    width: 250px;
+    height: 250px;
+    border-radius: 140px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+     
+  }
+  .recordCard h4{
+    
+    margin-left: 110px;
+  }

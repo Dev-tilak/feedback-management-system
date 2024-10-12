@@ -1,0 +1,199 @@
+body {
+  /* background: #6a11cb; */
+  /* background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)) */
+  /* background-image: url(./WhatsApp\ Image\ 2024-04-22\ at\ 14.46.01_c3c4fdbb.jpg); */
+  /* background-color: rgb(244, 144, 23); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+.logi{
+  margin: 30px;
+  height: 700px;
+  width: 700px;
+ 
+}
+
+.card{
+ background-color: rgb(188, 243, 224);
+ margin-left: 900px;
+ margin-top: -45%;
+}
+.ttext{
+  color: rgb(59, 95, 216);
+}
+.ttext1{
+  color: rgb(16, 18, 26);
+
+}
+
+.topform{
+  /* background-image: url(./bg.jpg); */
+  /* text-shadow:; */
+  /* background: transparent; */
+  color: rgb(6, 6, 6);
+  box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.login-btn{
+  /* background: #6a11cb; */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  background-repeat: no-repeat;
+  /* color: white; */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  text-decoration-line: none;
+  /* width: 20vw;
+  height: 5vh; */
+  border-radius: 45px;
+  margin-bottom: 30px;
+}
+
+
+.login-btnx{
+  text-decoration-line: none;
+  /* margin-bottom: 30px; */
+}
+
+.login-btn:hover{
+  box-shadow: 0 0 10px blue;
+  background-color: black;
+  color: white;
+}
+
+.signup-btn:hover{
+  text-shadow: 0 0 10px white;
+}
+
+.signup-btn{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  /* transition: all 0.3s; */
+  text-decoration-line: none;
+}
+.input-icon {
+  position: relative;
+  background: none !important;
+}
+
+.input-icon .fs-5 {
+  position: absolute;
+  right: 10px;
+  top: 40.8%;
+  transform: translateY(-50%);
+}
+
+.fgpass a{
+  text-decoration-line: none;
+  font-family: Raleway;
+}
+
+#flexCheckDefault{
+  font-family: Raleway;
+
+} 
+.add{
+  height: 600px;
+  width: 600px;
+  margin-left: 900px;
+  margin-top: -700px;
+}
+.sinupcard{
+  margin-top: -650px;
+  margin-left: 450px;
+  background-color: rgb(163, 204, 248);
+}
+.admin{
+  margin-left: 50px;
+}
+.admin a{
+  text-decoration: none;
+  color: black;
+}
+@media (min-width:640px) {
+  .logi{
+    margin: 30px;
+    height: 700px;
+    width: 700px;
+  }
+  .card{
+    background-color: rgb(188, 243, 224);
+    margin-left: 900px;
+    margin-top: -45%;
+  }
+  .ttext{
+    color: rgb(59, 95, 216);
+  }
+  .ttext1{
+    color: rgb(16, 18, 26);
+  
+  }
+  
+  .topform{
+    /* background-image: url(./bg.jpg); */
+    /* text-shadow:; */
+    /* background: transparent; */
+    color: rgb(6, 6, 6);
+    box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .login-btn{
+    /* background: #6a11cb; */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    background-repeat: no-repeat;
+    /* color: white; */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    text-decoration-line: none;
+    /* width: 20vw;
+    height: 5vh; */
+    border-radius: 45px;
+    margin-bottom: 30px;
+  }
+  
+  
+  .login-btnx{
+    text-decoration-line: none;
+    /* margin-bottom: 30px; */
+  }
+  
+  .login-btn:hover{
+    box-shadow: 0 0 10px blue;
+    background-color: black;
+    color: white;
+  }
+  
+  .signup-btn:hover{
+    text-shadow: 0 0 10px white;
+  }
+  
+  .signup-btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    /* transition: all 0.3s; */
+    text-decoration-line: none
+  }
+
+  
+}

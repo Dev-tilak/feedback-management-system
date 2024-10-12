@@ -1,0 +1,110 @@
+.App {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("../image/feedback.jpg"); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial;
+  }
+.register{
+    width: 425px;
+    background-color:rgba(207, 214, 249, 0.7);
+    border: 1px solid #211d20;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%),0 8px 16px rgb(0 0 0 / 10%) ;
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    /* position: relative; */
+    margin-right: 40px;
+   
+
+}
+.register > input ,textarea , .rating{
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+    color: #211d20;
+    margin: .5rem 0;
+    padding: .5rem 0.75rem;
+    width: 92%;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+
+.register > .button{
+    background-color: #00b6ff;
+    border: #1877f2 1px solid;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.register > .buttonreset{
+    background-color: red;
+    border: #1877f2 1px solid;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+}
+#dropdown{
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+    color: #1d2120;
+    margin: .5rem 0;
+    padding: .5rem 0.75rem;
+    width: 92%;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+.rating > input ,i{
+    float: left;
+    color:rgba(187, 187, 15, 0.962);
+    
+    
+}
+.rating{
+    margin-left: .9rem;
+}
+.rating input{
+   
+   
+}
+.rating i{
+    font-size: 1.5rem;
+    /* padding-left: 2px; */
+}
+
+.feed{
+    height: 800px;
+    width: 800px;
+    margin-right: 150px;
+}
+.logout{
+   position: relative;
+   top: -300px;
+   width: 90px;
+   height: 40px;
+   border-radius: 20px;
+   background-color: red;
+   color: white;
+   border:1px solid black;
+}
+.logout:hover{
+    background-color: yellow;
+    color: black;
+    border:1px solid black;
+}

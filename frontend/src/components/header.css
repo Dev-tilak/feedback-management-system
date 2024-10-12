@@ -1,0 +1,15 @@
+.search_width{
+    width: 500px;
+    
+ 
+}
+.nav_icon{
+    float: right;
+    font-size: x-large;
+    margin-right: 30px;
+    color: black;
+}
+.nbar{
+    border-bottom: 0.1px solid rgb(195, 191, 191) ;
+    
+}
